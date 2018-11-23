@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';                                                   
 
-import { ElModule } from 'element-angular';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
 import { CarouselComponent } from './carousel/carousel.component';
@@ -23,8 +22,7 @@ import { FooterComponent } from './footer/footer.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ElModule.forRoot()
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
