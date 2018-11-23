@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { $ } from 'protractor';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'lagou';
+  title = 'Angular入门实战';
 }
