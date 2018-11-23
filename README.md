@@ -1,27 +1,21 @@
 # Lagou
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+angular4.0入门小项目  非商业用途
 
-## Development server
+## 技术栈
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+angularCLI+angular4.0+boostrap+less+Typescript
 
-## Code scaffolding
+## 项目结构
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+e2e 端到端的单元测试
+src 开发源码
+angular.json AngularCli配置文件
+package.json 依赖包
 
-## Build
+## 启动项目
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. 下载该项目至本地，可通过git clone 或 zip方式
+2. 进入根目录 npm install 安装项目依赖文件
+3. 命令行输入 ng serve --open 运行本地angular服务并打开浏览器运行
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
