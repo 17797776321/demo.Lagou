@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-start',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./start.component.less']
 })
 export class StartComponent implements OnInit {
+  @Input()
+  private rating:number = 0;
 
   constructor() { }
 
