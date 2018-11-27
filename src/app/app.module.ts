@@ -11,7 +11,8 @@ import { ProductComponent } from './product/product.component';
 import { StartComponent } from './start/start.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { Page404ComponentComponent } from './page404-component/page404-component.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component'
     StartComponent,
     FooterComponent,
     ProductDetailComponent,
-    HomeComponent
+    HomeComponent,
+    Page404ComponentComponent
   ],
   imports: [
     BrowserModule,
