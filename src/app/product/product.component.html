@@ -1,5 +1,5 @@
 <div class="col-lg-12" style="margin-top:10px">
-  <input type="text" class="form-control">
+  <input type="text" class="form-control" [formControl]="titleFilter">
 </div>
 <div *ngFor="let product of products" class="mybox col-md-4 col-sm-4 col-lg-4">
   <div class="thumbnail">

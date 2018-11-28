@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule , ReactiveFormsModule} from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';                                                   
@@ -14,6 +15,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { HomeComponent } from './home/home.component';
 import { Page404ComponentComponent } from './page404-component/page404-component.component'
 import { ProductService } from './shared/product.service';
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,9 @@ import { ProductService } from './shared/product.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
