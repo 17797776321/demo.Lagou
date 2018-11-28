@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { Page404ComponentComponent } from './page404-component/page404-component.component'
 import { ProductService } from './shared/product.service';
 import { from } from 'rxjs';
+import { FilterPipe } from './pipe/filter.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { from } from 'rxjs';
     FooterComponent,
     ProductDetailComponent,
     HomeComponent,
-    Page404ComponentComponent
+    Page404ComponentComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
